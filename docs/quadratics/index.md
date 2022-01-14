@@ -3,4 +3,4 @@ Namespace: `cppmath::quadratics`
 
 ## Classes
 
-- [`QuadraticEquation`](<https://https123456789.github.io/CPP-Math/quadratics>)
+- [`QuadraticEquation`](<https://https123456789.github.io/CPP-Math/quadratics/QuadraticEquation>)
