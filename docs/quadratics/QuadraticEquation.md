@@ -69,6 +69,8 @@ Arguments:
 - amount
  Type: `int`
 
+Moves the function up by the specified amount.
+
 ### moveDown
 
 Return type: `void`
@@ -77,6 +79,8 @@ Arguments:
 
 - amount
  Type: `int`
+
+Moves the function down by the specified amount.
 
 ### moveLeft
 
@@ -87,6 +91,8 @@ Arguments:
 - amount
  Type: `int`
 
+Moves the function left by the specified amount.
+
 ### moveRight
 
 Return type: `void`
@@ -95,3 +101,5 @@ Arguments:
 
 - amount
  Type: `int`
+
+Moves the function right by the specified amount.
