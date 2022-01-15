@@ -28,4 +28,4 @@ For the quadratic equation: f(x)=1x²+4x+-4
 Axis of Symmetry: -2
 ```
 
-<img src="https://user-images.githubusercontent.com/81256789/149603986-2ec4e8e2-7d85-4fa6-8002-d488ee992f06.png" style="width: 50%;">
+<img src="https://user-images.githubusercontent.com/81256789/149603986-2ec4e8e2-7d85-4fa6-8002-d488ee992f06.png" style="width: 50%;" align="center">
