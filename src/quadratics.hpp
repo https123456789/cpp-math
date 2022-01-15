@@ -20,10 +20,10 @@ namespace cppmath {
 				int form = 0;
 				void print(void) {
 					if (form == 0) {
-						std::cout << "f(x)=" << a << "x\u00B2+" << b << "x+" << c << std::endl;
+						std::cout << "f(x)=" << a << "x\u00B2+" << b << "x+" << c;
 					}
 					if (form == 1) {
-						std::cout << "f(x)=" << a << "(x-" << h << ")\u00B2+" << k << std::endl;
+						std::cout << "f(x)=" << a << "(x-" << h << ")\u00B2+" << k;
 					}
 				}
 				void toVertexForm(void) {
@@ -33,9 +33,17 @@ namespace cppmath {
 					h = b / 2;
 					k = c + m;
 				}
+				void toStandardForm(void) {
+					form = 0;
+					b = h * 2;
+					int q = std::pow((b/2), 2);
+					int m = -1 * (a * q);
+					c = k - m;
+				}
 				double getAOS(void) {
 					toVertexForm();
 					aos = -1 * h;
+					toStandardForm();
 					return aos;
 				}
 				void moveUp(int amt) {
