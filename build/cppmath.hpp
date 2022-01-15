@@ -52,15 +52,6 @@ namespace cppmath {
 					b -= 2 * amt;
 					c += std::pow(amt, 2);
 				}
-				/*
-				double[2] getIntercepts(void) {
-					double ret[2] = {0, 0};
-					double rsm = 0;
-
-
-					return ret;
-				}
-				*/
 		};
 	}
 }
