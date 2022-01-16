@@ -17,6 +17,21 @@ int main(int argc, char *argv[]) {
 	func.toVertexForm();
 	std::cout << "Vertex form: ";
 	func.print();
+	std::cout << std::endl << std::endl;
+	std::cout << "Parent function: ";
+	QuadraticFunction newfunc;
+	newfunc.print();
+	std::cout << std::endl << "Translated left 4 and up 1, with a x-axis reflection:" << std::endl;
+	newfunc.moveUp(1);
+	newfunc.moveLeft(4);
+	newfunc.a = newfunc.a * -1;
+	newfunc.print();
+	std::cout << std::endl;
+	newfunc.toVertexForm();
+	newfunc.print();
+	std::cout << std::endl;
+	newfunc.toStandardForm();
+	newfunc.print();
 	std::cout << std::endl;
 	return 0;
 }

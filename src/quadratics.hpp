@@ -16,6 +16,10 @@ namespace cppmath {
 				int c = 0;
 				int h = 0;
 				int k = 0;
+				int vertex[2] = {
+					0,
+					0
+				};
 				double aos = 0;
 				int form = 0;
 				void print(void) {
@@ -28,37 +32,59 @@ namespace cppmath {
 				}
 				void toVertexForm(void) {
 					form = 1;
-					int q = std::pow((b/2), 2);
-					int m = -1 * (a * q);
-					h = b / 2;
-					k = c + m;
+					//int q = std::pow((b/2), 2);
+					//int m = -1 * (a * q);
+					//h = b / 2;
+					//k = c + m;
+					h = vertex[0];
+					k = vertex[1];
 				}
 				void toStandardForm(void) {
 					form = 0;
-					b = h * 2;
-					int q = std::pow((b/2), 2);
-					int m = -1 * (a * q);
-					c = k - m;
+					/*
+						f(X)=-1(x--4)^2+1
+						-1(x+4)(x+4)+1
+						-1(x^2+8x+16)+1
+						-x^2-8x-15
+					*/
+					b = a * ((vertex[0] * -1) * 2);
+					c = (a * std::pow(-1 * vertex[0], 2)) + vertex[1];
 				}
 				double getAOS(void) {
-					toVertexForm();
-					aos = -1 * h;
-					toStandardForm();
-					return aos;
+					//toVertexForm();
+					//aos = -1 * h;
+					//toStandardForm();
+					return vertex[0];
 				}
+				// Rewrite functions
+				// use vertex form and adjust the vertex, the convert back to standard form
 				void moveUp(int amt) {
-					c += 1 * amt;
+					//toVertexForm();
+					//k += 1 * amt;
+					vertex[1] += 1 * amt;
+					//toStandardForm();
 				}
 				void moveDown(int amt) {
-					c -= 1 * amt;
+					//toVertexForm();
+					//k -= 1 * amt;
+					vertex[1] -= 1 * amt;
+					//toStandardForm();
 				}
 				void moveLeft(int amt) {
-					b += 2 * amt;
-					c -= std::pow(amt, 2);
+					vertex[0] -= 1 * amt;
+					/*toVertexForm();
+					h += 1 * amt;
+					toStandardForm();*/
+					//b += 2 * amt;
+					//c -= std::pow(amt, 2);
 				}
 				void moveRight(int amt) {
-					b -= 2 * amt;
-					c += std::pow(amt, 2);
+					vertex[0] += 1 * amt;
+					/*toVertexForm();
+					h -= 1 * amt;
+					toStandardForm();*/
+					//b -= 2 * amt;
+					//c += std::pow(amt, 2);
 				}
 		};
 	}

@@ -34,6 +34,10 @@ Type: `double`
 
 Type: `int`
 
+### vertex
+
+Type: `int array[2]`
+
 ## Methods
 
 ### print
@@ -51,6 +55,14 @@ Return type: `void`
 Arguments: `void`
 
 Converts object to vertex form.
+
+### toStandardForm
+
+Return type: `void`
+
+Arguments: `void`
+
+Converts object to standard form.
 
 ### getAOS
 
