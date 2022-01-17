@@ -25,8 +25,6 @@ int main(int argc, char *argv[]) {
 	newfunc.moveUp(1);
 	newfunc.moveLeft(4);
 	newfunc.a = newfunc.a * -1;
-	newfunc.print();
-	std::cout << std::endl;
 	newfunc.toVertexForm();
 	newfunc.print();
 	std::cout << std::endl;

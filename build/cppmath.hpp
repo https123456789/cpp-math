@@ -24,10 +24,26 @@ namespace cppmath {
 				int form = 0;
 				void print(void) {
 					if (form == 0) {
-						std::cout << "f(x)=" << a << "x\u00B2+" << b << "x+" << c;
+						std::string pb = "+" + std::to_string(b);
+						std::string pc = "+" + std::to_string(c);
+						if (b < 0) {
+							pb = "-" + std::to_string(-1 * b);
+						}
+						if (c < 0) {
+							pc = "-" + std::to_string(-1 * c);
+						}
+						std::cout << "f(x)=" << a << "x\u00B2" << pb << "x" << pc;
 					}
 					if (form == 1) {
-						std::cout << "f(x)=" << a << "(x-" << h << ")\u00B2+" << k;
+						std::string ph = "-" + std::to_string(h);
+						std::string pk = "+" + std::to_string(k);
+						if (h < 0) {
+							ph = "+" + std::to_string(-1 * h);
+						}
+						if (k < 0) {
+							pk = "-" + std::to_string(-1 * k);
+						}
+						std::cout << "f(x)=" << a << "(x" << ph << ")\u00B2" << pk;
 					}
 				}
 				void toVertexForm(void) {
@@ -41,22 +57,14 @@ namespace cppmath {
 				}
 				void toStandardForm(void) {
 					form = 0;
-
 					/*
 						f(X)=-1(x--4)^2+1
 						-1(x+4)(x+4)+1
 						-1(x^2+8x+16)+1
 						-x^2-8x-15
 					*/
-
-					//b = h * 2;
-					//int q = std::pow((b/2), 2);
-					//int m = -1 * (a * q);
-					//c = k - m;
 					b = a * ((vertex[0] * -1) * 2);
 					c = (a * std::pow(-1 * vertex[0], 2)) + vertex[1];
-					//b = a * std::pow((2 * -1), 2);
-					//c = (a * (-1 * (std::pow(vertex[0], 2)))) + vertex[1];
 				}
 				double getAOS(void) {
 					//toVertexForm();
