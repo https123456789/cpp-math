@@ -1,3 +1,8 @@
+---
+title: Quadratics
+sidebar: mydoc_sidebar
+tags: [overview]
+---
 # Quadratics
 Namespace: `cppmath::quadratics`
 
