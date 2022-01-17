@@ -2,6 +2,7 @@
 title: Quadratics
 sidebar: mydoc_sidebar
 tags: [overview]
+permalink: index.md
 ---
 # Quadratics
 Namespace: `cppmath::quadratics`
