@@ -14,7 +14,6 @@ Namespace: `cppmath::quadratics`
 ## Example
 
 `tests/quadratics.cpp`
-{% highlight %}
 ```
 #include <iostream>
 #include "cppmath.hpp"
@@ -39,7 +38,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 ```
-{% endhighlight %}
+
 ```
 $ ./tests/quadratics
 For the quadratic equation: f(x)=1x²+4x+-4
