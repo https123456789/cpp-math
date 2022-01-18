@@ -1,6 +1,11 @@
+---
+title: Quadratic Equation
+permalink: quadratics/QuadraticEquation
+namespace: cppmath::quadratics
+---
 # QuadraticEquation
 
-Namespace: `cppmath::quadratics`
+Namespace: `{{ page.namespace }}`
 
 Type: `class`
 

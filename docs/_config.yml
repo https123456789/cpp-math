@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: pmarsceill/just-the-docs
 lsi: false
 safe: true
 source: docs

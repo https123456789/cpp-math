@@ -1,5 +1,5 @@
 ---
-title: cppmath::quadratics
+title: Quadratics
 permalink: /quadratics
 namespace: cppmath::quadratics
 ---
