@@ -1,5 +1,10 @@
+---
+title: cppmath::quadratics
+permalink: /quadratics
+namespace: cppmath::quadratics
+---
 # Quadratics
-Namespace: `cppmath::quadratics`
+Namespace: `{{ page.namespace }}`
 
 ## Classes
 
