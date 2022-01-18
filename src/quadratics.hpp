@@ -54,7 +54,7 @@ namespace cppmath {
 				void toStandardForm(void) {
 					form = 0;
 					b = a * ((vertex[0] * -1) * 2);
-					c = (a * std::pow(-1 * vertex[0], 2)) + vertex[1];
+					c = (a * cppmath::pow(-1 * vertex[0], 2)) + vertex[1];
 				}
 				double getAOS(void) {
 					return vertex[0];

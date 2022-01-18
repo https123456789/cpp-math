@@ -1,3 +1,13 @@
+namespace cppmath {
+	// pow
+	int pow(int n, int cnt) {
+		int ret = 1;
+		for (int i = 0; i < cnt; i++) {
+			ret = ret * n;
+		}
+		return ret;
+	}
+}
 #include <iostream>
 #include <cmath>
 
@@ -48,28 +58,15 @@ namespace cppmath {
 				}
 				void toVertexForm(void) {
 					form = 1;
-					//int q = std::pow((b/2), 2);
-					//int m = -1 * (a * q);
-					//h = b / 2;
-					//k = c + m;
 					h = vertex[0];
 					k = vertex[1];
 				}
 				void toStandardForm(void) {
 					form = 0;
-					/*
-						f(X)=-1(x--4)^2+1
-						-1(x+4)(x+4)+1
-						-1(x^2+8x+16)+1
-						-x^2-8x-15
-					*/
 					b = a * ((vertex[0] * -1) * 2);
-					c = (a * std::pow(-1 * vertex[0], 2)) + vertex[1];
+					c = (a * cppmath::pow(-1 * vertex[0], 2)) + vertex[1];
 				}
 				double getAOS(void) {
-					//toVertexForm();
-					//aos = -1 * h;
-					//toStandardForm();
 					return vertex[0];
 				}
 				// Rewrite functions
