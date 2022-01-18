@@ -13,7 +13,7 @@ Namespace: `{{ page.namespace }}`
 ## Example
 
 `tests/quadratics.cpp`
-```
+```cpp
 #include <iostream>
 #include "cppmath.hpp"
 

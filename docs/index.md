@@ -11,7 +11,7 @@
 ### Quadratics
 
 `tests/quadratics.cpp`
-```
+```cpp
 #include <iostream>
 #include "cppmath.hpp"
 
