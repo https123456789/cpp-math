@@ -2,7 +2,7 @@
 title: Quadratics
 namespace: cppmath::quadratics
 has_children: true
-nav_order: 3
+nav_order: 1
 has_toc: false
 parent: Docs
 ---
