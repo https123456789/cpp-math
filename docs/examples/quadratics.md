@@ -1,10 +1,9 @@
 ---
-title: Quadratics
+title: Quadratics Example
 namespace: cppmath::quadratics
-has_children: true
 nav_order: 1
 has_toc: false
-parent: Docs
+parent: Examples
 ---
 # Quadratics
 Namespace: `{{ page.namespace }}`

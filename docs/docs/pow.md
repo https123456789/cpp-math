@@ -5,14 +5,17 @@ nav_order: 2
 ---
 # Pow - The Power Function
 
+Calculates the power of the given base to the given exponent.
+
 ## Parameters
 
-- `base`
+- ### base
  
  Supported Types:
   - `int`
+  - `double`
 
-- `exponent`
+- ### exponent
  
  Supported Types:
   - `int`

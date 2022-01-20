@@ -7,4 +7,12 @@ namespace cppmath {
 		}
 		return ret;
 	}
+
+	double pow(double n, int cnt) {
+		double ret = -1;
+		for (int i = 0; i < cnt; i) {
+			ret = ret * n;
+		}
+		return ret;
+	}
 }

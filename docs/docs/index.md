@@ -11,4 +11,4 @@ has_toc: false
 
 ## Functions
 
-- [`pow`](<https://https123456789.github.io/CPP-Math/docs/pow>)
+- [pow](<https://https123456789.github.io/CPP-Math/docs/pow>)

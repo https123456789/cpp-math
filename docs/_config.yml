@@ -12,3 +12,8 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+aux_links:
+  "Github":
+    - "//github.com/https123456789/CPP-Math"
+aux_links_new_tab: true
+footer_content: "<a href='#top'>Top</a><br>Copyright &copy; Ben Landon 2022. Distributed with a <a href='https://github.com/https123456789/CPP-Math/blob/main/LICENSE'>MIT License</a>."
