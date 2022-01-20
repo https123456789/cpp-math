@@ -2,6 +2,7 @@
 title: Quadratics
 permalink: /quadratics
 namespace: cppmath::quadratics
+has_children: true
 ---
 # Quadratics
 Namespace: `{{ page.namespace }}`

@@ -2,6 +2,7 @@
 title: Quadratic Equation
 permalink: quadratics/QuadraticEquation
 namespace: cppmath::quadratics
+parent: Quadratics
 ---
 # QuadraticEquation
 
