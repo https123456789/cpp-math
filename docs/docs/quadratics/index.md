@@ -1,8 +1,10 @@
 ---
 title: Quadratics
-permalink: /quadratics
 namespace: cppmath::quadratics
 has_children: true
+nav_order: 3
+has_toc: false
+parent: Docs
 ---
 # Quadratics
 Namespace: `{{ page.namespace }}`

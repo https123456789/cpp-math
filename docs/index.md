@@ -1,7 +1,8 @@
 ---
+title: CPP-Math
 nav_order: 1
 ---
-# CPP-Math Docs
+# CPP-Math
 
 [Download](<https://github.com/https123456789/CPP-Math/archive/refs/heads/main.zip>)
 

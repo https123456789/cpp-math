@@ -1,8 +1,9 @@
 ---
 title: Quadratic Equation
-permalink: quadratics/QuadraticEquation
 namespace: cppmath::quadratics
 parent: Quadratics
+grand_parent: Docs
+has_toc: false
 ---
 # QuadraticEquation
 
