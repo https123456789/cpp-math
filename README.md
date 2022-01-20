@@ -33,10 +33,10 @@ int main(int argc, char *argv[]) {
 
 ```
 $ ./tests/quadratics
-For the quadratic equation: f(x)=1x²+4x+-4
+For the quadratic equation: f(x)=1x²+4x-4
 Axis of Symmetry: -2
-Standard form: f(x)=1x²+4x+-4
-Vertex form: f(x)=1(x-2)²+-8
+Standard form: f(x)=1x²+4x-4
+Vertex form: f(x)=1(x-2)²-8
 
 Parent function: f(x)=1x²+0x+0
 Translated left 4 and up 1, with an x-axis reflection:
@@ -44,4 +44,10 @@ f(x)=-1(x+4)²+1
 f(x)=-1x²-8x-15
 ```
 
-<img src="https://user-images.githubusercontent.com/81256789/149603986-2ec4e8e2-7d85-4fa6-8002-d488ee992f06.png" style="width: 50%;" align="center">
+<figure>
+	<img src="https://user-images.githubusercontent.com/81256789/149603986-2ec4e8e2-7d85-4fa6-8002-d488ee992f06.png" style="width: 50%;" align="center">
+	<figcaption>
+		<p>A graph of the equation <code>f(x)=1x²+4x-1</code>.</p>
+		<small>Graph created with <a href="https://www.desmos.com/calculator">Desmos</a>.</small>
+	</figcaption>
+</figure>
