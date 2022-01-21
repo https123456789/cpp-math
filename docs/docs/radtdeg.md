@@ -4,7 +4,7 @@ parent: Docs
 has_toc: false
 ---
 
-# radtdeg - The Radians to Degrees Function
+# `radtdeg` - The Radians to Degrees Function
 
 Stable
 {: .label .label-green}

@@ -4,7 +4,7 @@ parent: Docs
 has_toc: false
 ---
 
-# degtrad - The Degrees to Radians Function
+# `degtrad` - The Degrees to Radians Function
 
 Stable
 {: .label .label-green}

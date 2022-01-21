@@ -5,7 +5,7 @@ parent: Quadratics
 grand_parent: Docs
 has_toc: false
 ---
-# QuadraticEquation
+# `QuadraticEquation` - A Representation of a Quadratic Equation
 
 Namespace: `{{ page.namespace }}`
 

@@ -6,8 +6,10 @@ has_toc: false
 ---
 # Docs
 
-## Sub-Namespaces
-- [Quadratics](<https://https123456789.github.io/CPP-Math/docs/quadratics>)
+## Namespaces
+
+- [`cppmath::quadratics`](<https://https123456789.github.io/CPP-Math/docs/quadratics>)
+- [`cppmath::trigonometry`](<https://https123456789.github.io/CPP-Math/docs/trigonometry>)
 
 ## Functions
 
