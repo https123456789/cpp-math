@@ -11,7 +11,7 @@ namespace cppmath {
 	}
 
 	double pow(double n, int cnt) {
-		double ret = -1;
+		double ret = 1;
 		for (int i = 0; i < cnt; i++) {
 			ret = ret * n;
 		}
@@ -146,7 +146,7 @@ namespace cppmath {
 		}
 		*/
 		double cos(double angle, int accuracy = 10) {
-			double count = 2;
+			/*double count = 2;
 			double ret = 1;
 			double dir = -1;
 			for (int i = 0; i < accuracy; i+=2,count+=2,dir*=-1) {
@@ -159,6 +159,15 @@ namespace cppmath {
 				ret += r * dir;
 				std::cout << dir << " * " << r << std::endl;
 				std::cout << ret << std::endl << std::endl;
+			}
+			return ret;
+		}*/
+			int count = 0;
+			double ret = 0;
+			for (count = 0; count < accuracy; count++) {
+				std::cout << "Before: " << ret << std::endl;
+				ret = cppmath::pow(-1, count) * (cppmath::pow(angle, 2 * count) / cppmath::factorial(2 * count));
+				std::cout << "After: " << ret << std::endl;
 			}
 			return ret;
 		}

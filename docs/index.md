@@ -8,7 +8,8 @@ nav_order: 1
 
 ## Namespaces
 
-- [`cppmath::quadratics`](<https://https123456789.github.io/CPP-Math/quadratics>)
+- [`cppmath::quadratics`](<https://https123456789.github.io/CPP-Math/docs/quadratics>)
+- [`cppmath::trigonometry`](<https://https123456789.github.io/CPP-Math/docs/trigonometry>)
 
 ## Examples
 

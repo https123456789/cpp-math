@@ -3,7 +3,7 @@ title: Pow
 parent: Docs
 nav_order: 2
 ---
-# Pow - The Power Function
+# pow - The Power Function
 
 Stable
 {: .label .label-green}
