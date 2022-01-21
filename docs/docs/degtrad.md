@@ -13,14 +13,17 @@ Converts given angle in degrees to radians.
 
 ## Parameters
 
-- ### d
-
- Angle in degrees that is to be converted.
- 
- Supported types:
-
- - `double`
- - `int`
+<ul>
+	<li>
+		<h3>d</h3>
+		<p>Angle in degrees that is to be converted.</p>
+		<p>Supported types:</p>
+		<ul>
+			<li><code>double</code></li>
+			<li><code>int</code></li>
+		</ul>
+	</li>
+</ul>
 
 ## Return Value
 

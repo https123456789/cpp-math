@@ -12,20 +12,25 @@ Calculates the power of the given base to the given exponent.
 
 ## Parameters
 
-- ### base
-
- Base value that the exponent is to be applied to.
- 
- Supported types:
-  - `int`
-  - `double`
-
-- ### exponent
-
- Exponent that is to be applied to the base.
- 
- Supported types:
-  - `int`
+<ul>
+	<li>
+		<h3>base</h3>
+		<p>Base value that the exponent is to be applied to.</p>
+		<p>Supported types:</p>
+		<ul>
+			<li><code>double</code></li>
+			<li><code>int</code></li>
+		</ul>
+	</li>
+	<li>
+		<h3>exponent</h3>
+		<p>Exponent that the base is to be raised by.</p>
+		<p>Supported types:</p>
+		<ul>
+			<li><code>int</code></li>
+		</ul>
+	</li>
+</ul>
 
 ## Return Value
 

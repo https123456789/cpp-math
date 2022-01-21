@@ -136,7 +136,7 @@ namespace cppmath {
 	}
 	
 	namespace trigonometry {
-		double cos(double angle, int accuracy = 10) {
+		double cos(double angle, int accuracy = 100) {
 			int count = 0;
 			double ret = 0;
 			for (count = 0; count < accuracy; count++) {

@@ -15,24 +15,26 @@ Calculates the cosine of the given angle in radians.
 
 ## Parameters
 
-- ### angle
- 
- Angle in radians.
-
- Supported types:
-
-  - `double`
-
-- ### accuracy
- 
- (optional)
- {: .label .label-blue}
- 
- The number of times the function loops over the calculation. Higher values indicate greater accuracy than lower values. Default value is `100`.
-
- Supported types:
-
-  - `int`
+<ul>
+	<li>
+		<h3>angle</h3>
+		<p>Angle in radians.</p>
+		<p>Supported types:</p>
+		<ul>
+			<li><code>double</code></li>
+		</ul>
+	</li>
+	<li>
+		<h3>accuracy</h3>
+		<div class="label label-blue">optional</div>
+		<p>Default: <code>100</code></p>
+		<p>The number of times the function loops over the calculation. Higher values indicate greater accuracy than lower values. Default value is `100`.</p>
+		<p>Supported types:</p>
+		<ul>
+			<li><code>int</code</li>
+		</ul>
+	</li>
+</ul>
 
 ## Return Value
 
