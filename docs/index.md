@@ -12,4 +12,4 @@ nav_order: 1
 
 ## Examples
 
-### [Quadratics](<https://https123456789.github.io/CPP-Math/docs/quadratics#example>){: .btn .btn-purple}
+### [Quadratics](<https://https123456789.github.io/CPP-Math/examples/quadratics.html>){: .btn .btn-purple}

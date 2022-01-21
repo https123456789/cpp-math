@@ -4,13 +4,12 @@ namespace: cppmath::quadratics
 nav_order: 1
 has_toc: false
 parent: Examples
+permalink: examples/quadratics
 ---
 # Quadratics
 Namespace: `{{ page.namespace }}`
 
-## Classes
-
-- [`QuadraticEquation`](<https://https123456789.github.io/CPP-Math/quadratics/QuadraticEquation>)
+[QuadraticEquation](<https://https123456789.github.io/CPP-Math/quadratics/QuadraticEquation>){: .btn .btn-blue}
 
 ## Example
 

@@ -5,24 +5,31 @@ nav_order: 2
 ---
 # Pow - The Power Function
 
+Stable
+{: .label .label-green}
+
 Calculates the power of the given base to the given exponent.
 
 ## Parameters
 
 - ### base
+
+ Base value that the exponent is to be applied to.
  
- Supported Types:
+ Supported types:
   - `int`
   - `double`
 
 - ### exponent
+
+ Exponent that is to be applied to the base.
  
- Supported Types:
+ Supported types:
   - `int`
 
 ## Return Value
 
-Supported Types:
+Supported types:
 
 - `int`
 
