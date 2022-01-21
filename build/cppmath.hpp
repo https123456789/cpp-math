@@ -166,7 +166,7 @@ namespace cppmath {
 			double ret = 0;
 			for (count = 0; count < accuracy; count++) {
 				std::cout << "Before: " << ret << std::endl;
-				ret = cppmath::pow(-1, count) * (cppmath::pow(angle, 2 * count) / cppmath::factorial(2 * count));
+				ret += cppmath::pow(-1, count) * (cppmath::pow(angle, 2 * count) / cppmath::factorial(2 * count));
 				std::cout << "After: " << ret << std::endl;
 			}
 			return ret;

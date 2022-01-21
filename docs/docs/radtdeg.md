@@ -24,7 +24,7 @@ Converts the given angle in radians in degrees.
 
 ## Return Value
 
-Supported types:
+Types:
 
 - `double`
 

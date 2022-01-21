@@ -29,7 +29,7 @@ Calculates the power of the given base to the given exponent.
 
 ## Return Value
 
-Supported types:
+Types:
 
 - `int`
 

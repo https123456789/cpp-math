@@ -13,4 +13,4 @@ Namespace: `{{ page.namespace }}`
 
 ## Functions
 
-- [`cos`](<https://https123456789.github.io/CPP-Math/docs/trigonometry/cos>){: .label .label-red}
+- [`cos` - Unstable](<https://https123456789.github.io/CPP-Math/docs/trigonometry/cos>){: .yellow-200}
