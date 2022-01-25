@@ -136,13 +136,22 @@ namespace cppmath {
 	}
 	
 	namespace trigonometry {
-		double cos(double angle, int accuracy = 100) {
+		double cos(double angle, int accuracy = 10) {
 			int count = 0;
-			double ret = 0;
+			double ret = 0.0;
 			for (count = 0; count < accuracy; count++) {
 				ret += cppmath::pow(-1, count) * (cppmath::pow(angle, 2 * count) / cppmath::factorial(2 * count));
 			}
-			return ret;
+			return ret * (cppmath::cpi() / 180);
+		}
+
+		double sin(double angle, int accuracy = 10) {
+			int count = 0;
+			double ret = 0.0;
+			for (count = 0; count < accuracy; count++) {
+				ret += cppmath::pow(-1, count) * (cppmath::pow(angle, (2 * count + 1)) / cppmath::factorial(2 * count + 1));
+			}
+			return ret * (cppmath::cpi() / 180);
 		}
 	}
 }

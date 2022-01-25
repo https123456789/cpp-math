@@ -136,40 +136,22 @@ namespace cppmath {
 	}
 	
 	namespace trigonometry {
-		/*
-		double sin(double angle, int accuracy = 7) {
-			double ret = angle;
-			for (int i = 3; i < accuracy; i+=2) {
-				ret += (-1 * i) * (cppmath::pow(angle, i) / cppmath::factorial(i));
-			}
-			return ret;
-		}
-		*/
 		double cos(double angle, int accuracy = 10) {
-			/*double count = 2;
-			double ret = 1;
-			double dir = -1;
-			for (int i = 0; i < accuracy; i+=2,count+=2,dir*=-1) {
-				std::cout << ret << std::endl;
-				std::cout << angle << "^" << count << std::endl;
-				std::cout << count << "!" << std::endl;
-				double prt1 = cppmath::pow(angle, count);
-				double prt2 = cppmath::factorial(count);
-				double r = prt1 / prt2;
-				ret += r * dir;
-				std::cout << dir << " * " << r << std::endl;
-				std::cout << ret << std::endl << std::endl;
-			}
-			return ret;
-		}*/
 			int count = 0;
-			double ret = 0;
+			double ret = 0.0;
 			for (count = 0; count < accuracy; count++) {
-				std::cout << "Before: " << ret << std::endl;
 				ret += cppmath::pow(-1, count) * (cppmath::pow(angle, 2 * count) / cppmath::factorial(2 * count));
-				std::cout << "After: " << ret << std::endl;
 			}
-			return ret;
+			return ret * (cppmath::cpi() / 180);
+		}
+
+		double sin(double angle, int accuracy = 10) {
+			int count = 0;
+			double ret = 0.0;
+			for (count = 0; count < accuracy; count++) {
+				ret += cppmath::pow(-1, count) * (cppmath::pow(angle, (2 * count + 1)) / cppmath::factorial(2 * count + 1));
+			}
+			return ret * (cppmath::cpi() / 180);
 		}
 	}
 }

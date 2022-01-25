@@ -1,12 +1,12 @@
 ---
-title: Cosine
+title: Sine
 parent: Trigonometry
 grand_parent: Docs
 has_toc: false
 namespace: cppmath::trigonometry
 ---
 
-# `cos` - The Cosine Function
+# `sin` - The Sine Function
 
 Unstable
 {: .label .label-yellow}
@@ -49,26 +49,22 @@ Types:
 #include "cppmath.hpp"
 
 int main(int argc, char *argv[]) {
-	// Angles
+	// Angle in degrees
 	double angleDegrees = 45.0;
-	double angleRadians = 0.0;
-
-	// Convert angle to radians
-	angleRadians = cppmath::degtrad(angleDegrees);
-
-	// Result variable
-	double result = 0.0;
+	
+	// Angle in radians
+	double angleRadians = cppmath::degtrad(angleDegrees);
 
 	// Calculate
-	result = cppmath::trigonometry::cos(angleRadians);
+	double result = cppmath::trigonometry::sin(angleRadians);
 
 	// Print result
-	std::cout << "cos(45) = " << result << std::endl;
+	std::cout << "sin(x) = " << result << std::endl;
 }
 ```
 
 ```
-$ ./examples/cos
-cos(45) = 0.707124
+$ ./examples/sin
+sin(x) = 0.707089
 $ 
 ```
