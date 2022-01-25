@@ -14,3 +14,4 @@ Namespace: `{{ page.namespace }}`
 ## Functions
 
 - [`cos` - Unstable](<https://https123456789.github.io/CPP-Math/docs/trigonometry/cos>){: .yellow-200}
+- [`sin` - Unstable](<https://https123456789.github.io/CPP-Math/docs/trigonometry/sin>){: .yellow-200}
