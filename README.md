@@ -1,8 +1,6 @@
-# CPP-Math
-A simple library for math in C++.
+# Cpp-Math
 
-[Download](<https://github.com/https123456789/CPP-Math/archive/refs/heads/main.zip>)
+A math library implemented in C++ with the goal of being usable.
 
-## Examples
-
-You can run examples from the examples from the `examples` directory or view them at [https://https123456789.github.io/CPP-Math/examples/](<https://https123456789.github.io/CPP-Math/examples/>).
+> [!NOTE]
+> This library is a developed as a personal exploration of mathematics in computer science. As such, the library uses naive solutions.
