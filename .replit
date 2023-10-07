@@ -1,2 +1,13 @@
-language = "cpp"
-run = "./build.sh"
+compile = "cmake -B build && cmake --build build"
+run = "ctest --test-dir build --output-on-failure --schedule-random"
+
+[nix]
+channel = "stable-23_05"
+
+[languages]
+
+[languages.cpp]
+pattern = "**/*.{cpp,h}"
+
+[languages.cpp.languageServer]
+start = "ccls"
