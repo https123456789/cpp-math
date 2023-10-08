@@ -27,4 +27,4 @@ FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
 
-# add_test(expression)
+add_test(expression)
